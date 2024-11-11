@@ -22,17 +22,26 @@
 
     /* Tipografia */
     --font-asap: 'Asap', 'sans-serif';
-    --h1: 56px/120% bold var(--font-asap);
-    --h2: 24px/120% bold var(--font-asap);
-    --h3: 16px/120% bold var(--font-asap);
-
     --font-inconsolata: 'Inconsolata', 'sans-serif';
-    --subtitle: 20px/120% regular var(--font-inconsolata);
-
-
     --font-maven-pro: 'Maven Pro', 'sans-serif';
-    --text-md: 16px/140% regular var(--font-asap);
-    --text-sm: 14px/140% regular var(--font-asap);
+
+    /* Tamanhos e pesos */
+    --font-size-h1: 56px;
+    --font-size-h2: 24px;
+    --font-size-h3: 16px;
+    --font-size-subtitle: 20px;
+    --font-size-text-md: 16px;
+    --font-size-text-sm: 14px;
+
+    --line-height-h1: 120%;
+    --line-height-h2: 120%;
+    --line-height-h3: 120%;
+    --line-height-subtitle: 120%;
+    --line-height-text-md: 140%;
+    --line-height-text-sm: 140%;
+
+    --font-weight-bold: bold;
+    --font-weight-regular: regular;
 }
 
 body {
@@ -45,3 +54,11 @@ h1, h2, h3 {
     font: inherit;
 }
 
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}

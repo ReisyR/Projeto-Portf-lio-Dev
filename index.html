@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Asap -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Inconsolata -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Maven Pro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Dev</title>
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/index.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-    
 </head>
 <body>
-    
+    <header class="grid">
+        <img id="intro" src="assets/images/Background_Intro.png" alt="image intro">
+        <div>
+            <img class="martina-photo" src="assets/images/User.svg" alt="imagem da Martina Santos">
+        </div>
+        <nav id="primary">
+            <h3 class="subtitle">Hello World! Meu nome é <strong>Martina Santos</strong> e sou</h3>
+            <h1>Desenvolvedora Fullstack</h1>
+            <p>
+                Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+            </p>
+        </nav>
+
+        <nav id="secondary" class="grid grid-flow-col">
+            <div class="nav-item">
+                <img src="assets/icons/GitHub.svg" alt="icon github">
+                <a href="#">GitHub</a>
+            </div>
+            <div class="nav-item">
+                <img src="assets/icons/HTML.svg" alt="icon html">
+                <a href="#">HTML</a>
+            </div>
+            <div class="nav-item">
+                <img src="assets/icons/CSS.svg" alt="icon css">
+                <a href="#">CSS</a>
+            </div>
+            <div class="nav-item">
+                <img src="assets/icons/JavaScript.svg" alt="icon javascript">
+                <a href="#">JavaScript</a>
+            </div>
+            <div class="nav-item">
+                <img src="assets/icons/React.svg" alt="icon react">
+                <a href="#">React</a>
+            </div>
+            <div class="nav-item">
+                <img src="assets/icons/Node.js.svg" alt="icon node.js">
+                <a href="#">Node.js</a>
+            </div>
+        </nav>
+
+        <div id="caret">
+            <img src="assets/icons/CaretDoubleDown.svg" alt="icon CaretDoubleDown">
+        </div>
+    </header>
 </body>
 </html>
