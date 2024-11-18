@@ -32,7 +32,7 @@ header h1 {
     line-height: var(--line-height-h1);
     font-weight: var(--font-weight-bold);
     font-family: var(--font-asap);
-    color: rgba(255, 255, 255, 0.845);
+    color: white;
     
     margin-bottom: 8px;
 }

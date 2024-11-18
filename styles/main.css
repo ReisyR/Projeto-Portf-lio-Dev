@@ -6,6 +6,7 @@ main {
     box-sizing: border-box;
     max-width: 90%;
     margin: 0 auto;
+    margin-bottom: 144px;
 }
 
 main h3 {
