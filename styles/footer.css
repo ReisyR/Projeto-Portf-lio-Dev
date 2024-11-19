@@ -76,7 +76,7 @@ footer .nav-item img {
 }
 
 footer div {
-    border: solid;
+    border: solid 1px;
     width: 400px;
     height: 68px;
     border-radius: 8px;
@@ -84,10 +84,15 @@ footer div {
     background-color: var(--gray-300);
     align-content: center;
 
-    margin: 16px;
+    margin: 16px; 
+}
+
+footer nav :hover {
+    color: var(--blue);
 }
 
 #arrow {
     margin-left: auto;
     display: block;
 }
+

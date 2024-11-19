@@ -93,6 +93,10 @@ header .nav-item a {
     padding-left: 8px;
 }
 
+header .nav-item a:hover {
+    color: var(--red);
+}
+
 header .nav-item img {    
     width: 24px;
     height: 24px;

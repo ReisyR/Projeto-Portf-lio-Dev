@@ -32,7 +32,7 @@ main section {
 
 
 main section div {
-    border: solid var(--gray-300) 5px;
+    border: solid var(--gray-300) 1px;
     height: 280px;
     width: 100%;
     border-radius: 10px;
@@ -57,4 +57,8 @@ main h1 {
 main p {
     color: var(--gray-400);
     font-size: var(--font-size-p);
+}
+
+main section div:hover {
+    border-color: rgba(255, 255, 255, 0.509);
 }
