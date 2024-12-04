@@ -46,7 +46,7 @@ aside h2 {
 
 #services div {
     margin-top: 56px;
-    border: solid;
+    border: 2px solid;
     border-radius: 10px;
     color: var(--gray-300);
     

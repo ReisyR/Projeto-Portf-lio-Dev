@@ -93,8 +93,42 @@ header .nav-item a {
     padding-left: 8px;
 }
 
-header .nav-item a:hover {
+header #color-github :hover {
+    color: white;
+    font-weight: bold;
+}
+
+header #color-html :hover {
     color: var(--red);
+    font-weight: bold;
+
+}
+
+header #color-css :hover {
+    color: var(--blue);
+    font-weight: bold;
+
+}
+
+header #color-javascript :hover {
+    color: var(--yellow);
+    font-weight: bold;
+
+}
+
+header #color-html :hover {
+    color: var(--red);
+    font-weight: bold;
+}
+
+header #color-react :hover {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+header #color-nodejs :hover {
+    color: var(--green);
+    font-weight: bold;
 }
 
 header .nav-item img {    
