@@ -46,7 +46,6 @@ main section div img {
 
 main h1 {
     color: white;
-    margin-top: 10px;
     margin-bottom: 8px;
     font-weight: bold;
 }
@@ -57,5 +56,5 @@ main p {
 }
 
 main section div:hover {   
-    border: 1px solid rgba(255, 255, 255, 0.186);
+    border: 2px solid rgba(255, 255, 255, 0.186);
 }
