@@ -17,7 +17,7 @@ main h2 {
     text-align: center;
     margin-top: 8px;
     font-size: var(--font-size-h2);
-    color: white;
+    color: rgba(255, 255, 255, 0.845);
     margin-bottom: 56px;
 }
 
@@ -53,9 +53,9 @@ main h1 {
 
 main p {
     color: var(--gray-400);
-    font-size: var(--font-size-p);
+    font-size: 14px;    
 }
 
 main section div:hover {   
-    border: 1px solid rgba(255, 255, 255, 0.509);
+    border: 1px solid rgba(255, 255, 255, 0.186);
 }
